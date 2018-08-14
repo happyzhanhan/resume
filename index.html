@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<title>前端大神周振晗简历</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="nurealam sabbir">
+
+<meta content="width=device-width,initial-scale=1" name="viewport">
+
+<link rel="shortcut icon" href="images/favicon1.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7cOswald:400,700" rel="stylesheet"> -->
+
+<link rel="stylesheet" type="text/css" href="jquery/bootstrap-3.3.4.css">
+<link rel="stylesheet" type="text/css" href="jquery/font-awesome.4.6.0.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/simpletextrotator.css">
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+</head>
+<body>
+
+<div class="loading-screen"></div>
+<div id="frontpage">
+<div class="shadow-img"></div>
+<img src="images/front-image.jpg" class="front-img img-responsive" alt="Front-image">
+<h1>周 <span class="invert">振晗</span></h1>
+<h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;">Web <span class="rotate">Developer, Designer, Artist</span></h3> 
+<div class="frontclick"><img src="images/click.png" alt="" class="img-responsive"><span class="pulse"></span></div>
+</div>
+
+
+<div class="container">
+<div id="content" class="row hidden">
+<div class="col-sm-4">
+
+<div id="namecard" class="namecard">
+<div class="shadow-img"></div>
+<h1 class="maintitle">周 <span class="invert">振晗</span></h1>
+<h3 class="invert sub-maintitle">Web
+<span class="rotate">Developer, Designer, Artist</span>
+</h3>
+<img id="profile-img" class="profile-img transparent" src="images/profile-thum.png" alt="profile-image" />
+</div>
+
+<div id="menu-container">
+
+<ul class="nav-menu no-padding">
+<li class="nav-btn selected" title="Home" data-page="home">
+<div class="hover-background"></div>
+<span>首页</span><i class="fa fa-user fa-fw"></i>
+</li>
+<li class="nav-btn" id="resume-btn" title="Resume" data-page="resume">
+<div class="hover-background"></div>
+<span>简介</span><i class="fa fa-file-text fa-fw"></i>
+</li>
+<li class="nav-btn folio-btn" data-filter="*" title="Portfolio" data-page="portfolio">
+<div class="hover-background"></div>
+<span>经历</span><i class="fa fa-suitcase fa-fw"></i>
+</li>
+<li class="nav-btn" title="Contact" id="contact-link" data-page="contact">
+<div class="hover-background"></div>
+<span>联系</span><i class="fa fa-paper-plane fa-fw"></i>
+</li>
+</ul>
+
+<div class="social-menu-container" style="display: none;">
+<ul class="social-menu no-padding">
+<li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+<li><a href="javascript:;"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="https://shop156573949.taobao.com/" target="_blank"><i class="fa fa-leaf"></i></a></li>
+<li><a href="javascript:;"><i class="fa fa-pinterest-p"></i></a></li>
+<li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-8 page-segment">
+<ul class="page-container no-padding">
+
+<li id="home" class="selected">
+<div class="title-container hidden">
+<div class="shadow-img"></div>
+<h2 class="rotate-out">Welcome To <span class="invert">My Profile</span></h2>
+</div>
+<div class="description hidden">
+<div class="watermark-home"></div>
+<div class="fade-text transparent">
+
+<div class="strong-text">Hello, I am <span>ZhouZhenhan</span></div>
+<div class="focus-text"><span>Web Developer & </span><span>Web Designer</span></div>
+<p class="large-paragraph">大家好，我叫周振晗，是一名前端开发者，工作5年啦，对前端开发有着自己的见解，欢迎与我交流沟通。</p>
+
+</div>
+
+<h3 class="personal-info-title title">Personal Info</h3>
+<ul class="personal-info">
+<li class="rotate-out rotated"><label>Name</label><span>周振晗</span></li>
+<li class="rotate-out rotated"><label>Address</label><span>浙江省 杭州市</span></li>
+<li class="rotate-out rotated"><label>Email</label><span>1659725767@qq.com</span></li>
+<li class="rotate-out rotated"><label>Phone</label><span>15088700456</span></li>
+</ul>
+</div>
+</li>
+
+<li id="resume" class="hidden">
+<div class="title-container">
+<div class="shadow-img"></div>
+<h2 class="rotate-out rotated"><span class="invert">Resume</span> </h2> 
+</div>
+<div class="description">
+<div class='tabs tabs_animate'>
+
+<ul class='horizontal no-padding'>
+<li><a href="#tab-1" class="icon-bg icon-skills"><div>技能</div></a></li>
+<li><a href="#tab-2" class="icon-bg icon-education"><div>教育</div></a></li>
+<li><a href="#tab-3" class="icon-bg icon-employment"><div>项目</div></a></li>
+</ul>
+
+<div id='tab-1'>
+<h3 class="title">我的技能包</h3>
+<ul class="skills-list no-padding">
+<li class="row">
+<div class="col-xs-2"><div class="fw-mid">HTML</div></div>
+<div class="col-xs-9">
+<div class="bar">
+<div class="percentage" id="bar1" style="width: 95%;"></div>
+</div>
+</div>
+</li>
+<li class="row">
+<div class="col-xs-2"><div class="fw-mid">CSS</div></div>
+<div class="col-xs-9">
+<div class="bar">
+<div class="percentage" id="bar2" style="width: 85%;"></div>
+</div>
+</div>
+</li>
+<li class="row">
+<div class="col-xs-2"><div class="fw-mid">Javascript</div></div>
+<div class="col-xs-9">
+<div class="bar">
+<div class="percentage" id="bar3" style="width: 65%;"></div>
+</div>
+</div>
+</li>
+
+</ul>
+
+<div class="circle-skill-container">
+<h3 class="title">其他技能</h3>
+<div class="row">
+<div class="col-xs-4 center-align">
+<div class="circle-bar" id="line-container1">
+<div class="progressbar-text" id="progress-text1">0</div>
+</div>
+<h5>设计作图</h5>
+</div>
+<div class="col-xs-4 center-align">
+<div class="circle-bar" id="line-container2">
+<div class="progressbar-text" id="progress-text2">0</div>
+</div>
+<h5>剪接视频</h5>
+</div>
+<div class="col-xs-4 center-align">
+<div class="circle-bar" id="line-container3">
+<div class="progressbar-text" id="progress-text3">0</div>
+</div>
+<h5>后端数据</h5>
+</div>
+</div>
+</div>
+</div>
+
+<div id='tab-2'>
+<h3 class="title">学习</h3>
+<ul class="education-class">
+<li>
+
+<h4 class="title">大学学习<i class="fa fa-sort-desc pull-right"></i></h4>
+<div class="list-content">
+<h5 class="title">宿州学院<span class="list-year">(2010 - 2014)</span></h5>
+<p>计算机系信息管理与信息系统专业，大学的学习，我开始接触C语言，数据结构，c++，java等基础计算机知识。</p>
+</div>
+</li>
+<li>
+
+<h4 class="title">培训学习<i class="fa fa-sort-desc pull-right"></i></h4>
+<div class="list-content current">
+<h5 class="title">毕业培训和实习 <span class="list-year">(2014 - 2015)</span></h5>
+<p>我开始接触前端技能，很多同学也开始学习APP开发技能，学习实训，作出小组项目，到毕业设计的项目，都是很大的锻炼。</p>
+</div>
+</li>
+<li>
+
+<h4 class="title">公司培训<i class="fa fa-sort-desc pull-right"></i></h4>
+<div class="list-content">
+<h5 class="title">三人行，必有吾师 <span class="list-year">(2014 - 2016)</span></h5>
+<p>和已经入行的同事学习了很多技能，包括flash,PS,AI,等技能，扩充自己的知识储备。</p>
+</div>
+</li>
+<li>
+
+<h4 class="title">视频自学<i class="fa fa-sort-desc pull-right"></i></h4>
+<div class="list-content">
+<h5 class="title">坚持自有收获 <span class="list-year">(2016 - 至今)</span></h5>
+<p>我一直坚持自学，互联网更新换代太快，只有不断学习才能不被淘汰，所以我自学python,Android,php等语言,并且与时俱进的增加vue,angular,react等框架的学习。</p>
+</div>
+</li>
+</ul>
+</div>
+
+<div id='tab-3'>
+<h3 class="title">经验</h3>
+<ul class="employment-class tab-cont">
+<li>
+
+<h4>项目小组组长 <span class="year">2014 - 2015</span></h4>
+<h5>企业管理系统</h5>
+<p>实训时组织开发java+Oracle数据库+html制作的企业管理平台。</p>
+</li>
+<li>
+
+<h4>前端开发人员 <span class="year">2014 - 2015</span></h4>
+<h5>公司的电商项目——m商城</h5>
+<p>公司零售平台的设计开发，主要是php+mysql+html技术搭建的购物系统，包括注册登录、下单、发货、售后等一系列流程。</p>
+</li>
+<li>
+
+<h4>前端主管 <span class="year">2015 - 2018</span></h4>
+<h5>公司的电商项目——雅共供销</h5>
+<p>公司资源整合的一个批发平台，主要是java+php+mysql+mogodb+hrml等技术搭建的购物系统，包括批发价格档位、下单、售后等一系列流程。</p>
+</li>
+<li>
+
+<h4>前端主管 <span class="year">2015 - 2018</span></h4>
+<h5>公司的电商项目——零售柜项目</h5>
+<p>公司的一个小程序，主要是php后台接口+微信小程序等技术搭建的OTO下单购买程序。</p>
+</li>
+<li>
+
+<h4>前端主管 <span class="year">2015 - 2018</span></h4>
+<h5>公司的电商项目——泰牛订货系统</h5>
+<p>公司的一个H5订货系统，主要是php+mysql+vue+webpack等技术搭建的手机端订购采购系统，包括多等级采购下单的一系列流程。</p>
+</li>
+<li>
+
+<h4>前端主管 <span class="year">2015 - 2018</span></h4>
+<h5>诸多官网页面</h5>
+<p>制作了多套带有特效的官网页面，主要html+css3+jquery+其他。</p>
+</li>
+<li>
+
+<h4>前端主管 <span class="year">2015 - 2018</span></h4>
+<h5>众多店铺页面</h5>
+<p>制作了很多店铺页面，主要html+css3+jquery+其他。</p>
+</li>
+<li>
+
+<h4>兼职 <span class="year">2015 - 2018</span></h4>
+<h5>理财页面</h5>
+<p>整套的理财页面，包括首页选择+下单+收益提示等等，这个主要是写html+css+js页面。</p>
+</li>
+<li>
+
+<h4>兼职 <span class="year">2015 - 2018</span></h4>
+<h5>店铺管理页面</h5>
+<p>整套的店铺管理页面，包括店铺装修、商品上传、各种营销活动，这个主要是写html+css+angular.js页面。</p>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+</li>
+
+
+<li id="portfolio" class="hidden">
+<div class="title-container">
+<div class="shadow-img"></div>
+<h2 class="rotate-out rotated">Experience </h2> 
+</div>
+
+<div class="abs-child">
+<ul class="button-group filters-button-group">
+<li class="button is-checked" data-filter="*">全部</li>
+<li class="button" data-filter=".h5">H5</li>
+<li class="button" data-filter=".pc">PC</li>
+<li class="button" data-filter=".min">小程序</li>
+</ul>
+</div>
+<div class="sec-porfolio description">
+<div class="row">
+
+<div class="folio-container">
+<ul class="folio-item">
+<li class="view view-first h5">
+<img src="images/folio/a1.png" alt="logs" />
+<div class="mask">
+<h2>泰牛订货系统</h2> 
+
+<a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a>
+</div>
+</li>
+<li class="view view-second min">
+<img src="images/folio/a2.png" alt="book" />
+<div class="mask"></div>
+<div class="content">
+<h2>零售柜小程序</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal2">Read More</a>
+</div>
+</li>
+<li class="view view-tenth h5"> 
+<img src="images/folio/a3.png" alt="beach" /> 
+<div class="mask">
+<h2>金管家</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a> 
+</div>
+</li>
+<li class="view view-second h5">
+<img src="images/folio/a4.jpg" alt="guy" />
+<div class="mask"></div>
+<div class="content">
+<h2>雅购生态app</h2>
+ <a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a>
+</div>
+</li>
+<li class="view view-first h5">
+<img src="images/folio/a5.jpg" alt="illustration" />
+<div class="mask">
+<h2>雅共供销app</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> 
+</div>
+</li>
+<li class="view view-second pc">
+<img src="images/folio/p1.png" alt="guy" />
+<div class="mask"></div>
+<div class="content">
+<h2>妙铺</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal6">Read More</a>
+</div>
+</li>
+<li class="view view-tenth pc"> 
+<img src="images/folio/p2.png" alt="logs" /> 
+<div class="mask">
+<h2>雅购</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal7">Read More</a> 
+</div>
+</li>
+<li class="view view-tenth pc">
+<img src="images/folio/p3.png" alt="beach" /> 
+<div class="mask">
+<h2>金管家</h2>
+<a role="button" class="info" data-toggle="modal" data-target="#myModal8">Read More</a> 
+</div>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</li>
+
+<li id="contact" class="hidden" style="position: relative;">
+<div class="title-container">
+<div class="shadow-img"></div>
+<h2 class="rotate-out rotated">Contact</h2>
+</div>
+<div class="description">
+<div class="row">
+<div class="col-sm-12">
+<div class="map-container">
+<div id="map" style="width:100%;height:325px;">
+    
+</div>
+
+</div>
+</div>
+<div class="col-sm-5" >
+
+<h3 class="title">Contact Info</h3>
+<h6 class="sm-title"><span class="address-icon"><i class="fa fa-map-marker"></i></span>浙江省 杭州市</h6>
+<h6 class="sm-title"><span class="address-icon"><i class="fa fa-phone"></i></span>15088700456</h6>
+<h6 class="sm-title"><span class="address-icon"><i class="fa fa-envelope"></i></span>1659725767@qq.com</h6>
+<h6 class="sm-title"><span class="address-icon"><i class="fa fa-user"></i></span>微信：happy1212666</h6>
+
+
+</div>
+<!-- <div class="col-sm-7">
+<div class="mail-container">
+<div class="cnmail result">
+<div class="msg success-msg"><i class="icon svg-check"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"> <path d="M16 2.688c-7.375 0-13.313 5.938-13.313 13.313s5.938 13.313 13.313 13.313c7.375 0 13.313-5.938 13.313-13.313s-5.938-13.313-13.313-13.313zM16 28.25c-6.75 0-12.25-5.5-12.25-12.25s5.5-12.25 12.25-12.25c6.75 0 12.25 5.5 12.25 12.25s-5.5 12.25-12.25 12.25zM22.688 11.25l-8.563 8.313-3-3c-0.313-0.313-0.813-0.313-1.125 0s-0.313 0.813 0 1.125l3.563 3.563c0.125 0.125 0.313 0.188 0.563 0.188 0.188 0 0.375-0.063 0.5-0.188l9.125-8.875c0.375-0.313 0.375-0.813 0.063-1.125s-0.813-0.313-1.125 0z"></path> </svg> </i><span> You email has been stored!</span></div>
+<div class="msg error-msg"><i class="icon svg-close-circle"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"> <path d="M6.563 6.563c-5.188 5.188-5.188 13.688 0 18.875s13.688 5.188 18.875 0c5.188-5.188 5.188-13.625 0-18.875-5.188-5.188-13.625-5.188-18.875 0zM24.688 24.688c-4.813 4.75-12.563 4.75-17.375 0-4.75-4.813-4.75-12.563 0-17.375 4.813-4.75 12.563-4.75 17.375 0 4.75 4.813 4.75 12.563 0 17.375zM10.75 10l-0.813 0.75 5.313 5.25-5.25 5.25 0.75 0.75 5.25-5.25 5.25 5.25 0.75-0.75-5.25-5.25 5.313-5.25-0.813-0.75-5.25 5.25z"></path> </svg> </i><span> Sorry! Something went wrong!</span></div>
+</div>
+<h3 class="title invert">Don't Forget To Mail Me</h3>
+
+<form action="sendmail.php" class="form-horizontal" id="contact-form">
+<div class="form-group">
+<input name="name" class="form-control required" placeholder="Name" data-placement="top" type="text">
+</div>
+<div class="form-group">
+<input name="email" class="form-control email" placeholder="Email" type="text">
+</div> 
+<div class="form-group">
+<textarea name="message" class="form-control" placeholder="Message" rows="3"></textarea>
+</div>
+<div class="form-group">
+<button type="submit" class="btn btn-success">SEND</button>
+</div>
+</form>
+</div>
+</div> -->
+</div>
+</div>
+</li>
+</ul>
+<div class="row mobile-nav-container">
+
+<ul class="mobile-social no-padding">
+<li>Connect With Me</li>
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</div>
+ 
+</div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">泰牛订货系统</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/a1.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>一个连接到微信公众号，朋友圈微信群转发订货的系统</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel2">零售柜购物</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/a2.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>零售柜微信小程序购买</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel3">雅购生态app的h5页面</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/a4.jpg" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>雅购生态app里包括首页、详情页、活动页面在内的H5页面</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel4">雅共供销app的h5页面</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/a5.jpg" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>雅共供销APP里包括首页、详情、店铺页面在内的H5页面</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel5">金管家理财购买</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/a3.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>理财手机版</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel6">妙铺</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/p1.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>一个订餐系统，包括整个管理系统和装修等</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel7">雅购</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/p2.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>电商系统，包括管理后台等</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel8">金管家理财</h4>
+</div>
+<div class="modal-body">
+<img src="images/folio/p3.png" class="img-responsive" alt="modal-image">
+</div>
+<div class="modal-footer">
+<div class="mf-content">
+<p>理财购买系统</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h2 class="modal-title">Thank You</h2>
+</div>
+<div class="modal-body">
+<div class="text-center mail-sucsess"><h3> <span>your mail has been sent</span></h3></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script data-cfasync="false" src="js/email-decode.min.js"></script>
+<script type="text/javascript" src="js/jQueryTween-aio-min.js"></script> 
+<script type="text/javascript" src="js/jquery.tabslet.min.js"></script> 
+<script type="text/javascript" src="js/progressbar.min.js"></script> 
+<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyBPNkCVoBW_Jzl6x-hgGU6e7QW1QMwKles"></script>
+<script type="text/javascript" src='js/isotope.pkgd.min.js'></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
